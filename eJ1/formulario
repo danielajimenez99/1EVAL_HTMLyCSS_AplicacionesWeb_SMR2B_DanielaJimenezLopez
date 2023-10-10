@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="post">
+        <p>Nombre: <input type="text" name="Nombre" size="15" required></p>
+        <p>Apellidos: <input type="text" name="Apellidos" size="30" required></p>
+        <p>Edad: <input type="range" name="Edad" min="18" required</p>
+        <p> Género: <input type="radio" name="sexo" value="H"> Hombre
+            <input type="radio" name="sexo" value="M"> Mujer 
+        <p>Teléfono: <input type="tel" name="Número" min="34000000000" max="34999999999" required></p>
+        <p>Código postal (Madrid): <input type="number" name="CP" min="28001" max="28099" required></p>
+        <p>Dirección: <input type="text" name="Dirección" required></p>
+        <p></p>
+        <p> <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
