@@ -3,9 +3,14 @@
 }
 #saludoTriple {
     font-size: 3em;
+    border: 3px dotted yellow;
+    background-color: green;
 }
 #saludoTriplePorcentual {
     font-size: 300%;
+    border: 6px inset red;
+    background-color: rgb(14, 6, 117);
+    color: white;
 }
 div {
     border-top: 3px inset red;
@@ -14,6 +19,6 @@ div {
     padding: 6px;
 }
 #noticia {
-    padding: 1.5em;
+    padding: 1.5em 6em 2em 5em;
     background-color: rgb(200, 200, 200);
 }
