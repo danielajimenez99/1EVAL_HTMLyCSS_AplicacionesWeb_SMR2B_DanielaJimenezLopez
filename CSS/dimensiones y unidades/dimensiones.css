@@ -10,4 +10,5 @@
 div {
     border-top: 3px dotted red;
     border-bottom: 3px dashed blue;
+    border-left: 3px double green;
 }
