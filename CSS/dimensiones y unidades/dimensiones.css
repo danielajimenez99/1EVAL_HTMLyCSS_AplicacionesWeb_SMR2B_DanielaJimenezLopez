@@ -8,7 +8,12 @@
     font-size: 300%;
 }
 div {
-    border-top: 3px dotted red;
-    border-bottom: 3px dashed blue;
+    border-top: 3px inset red;
+    border-bottom: 3px ridge blue;
     border-left: 3px double green;
+    padding: 6px;
+}
+#noticia {
+    padding: 1.5em;
+    background-color: rgb(200, 200, 200);
 }
