@@ -7,3 +7,6 @@
 #saludoTriplePorcentual {
     font-size: 300%;
 }
+div {
+    border: 3px dotted red;
+}
