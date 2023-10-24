@@ -1,3 +1,6 @@
+@import 
+url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+
 @font-face {
     font-family: inconsolata;
     src: url("/inconsolata.woff");
@@ -11,4 +14,9 @@ body {
 h1, mark {
     color: darkgoldenrod;
     background-color: darkslategray;
+}
+
+footer {
+    font-family: "Mystery Quest";
+    color: goldenrod;
 }
