@@ -1,0 +1,14 @@
+@font-face {
+    font-family: inconsolata;
+    src: url("/inconsolata.woff");
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, mark {
+    color: darkgoldenrod;
+    background-color: darkslategray;
+}
