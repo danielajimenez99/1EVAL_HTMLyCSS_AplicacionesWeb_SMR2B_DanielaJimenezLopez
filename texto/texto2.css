@@ -1,0 +1,10 @@
+@import 
+url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+
+h1.rojo {
+    color:red ;
+}
+
+h1.negro {
+    color: black;
+}
