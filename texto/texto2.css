@@ -2,9 +2,9 @@
 url("https://fonts.googleapis.com/css?family=Mystery+Quest");
 
 h1.rojo {
-    color:red ;
+    background-color:red ;
 }
 
 h1.negro {
-    color: black;
+    background-color: black;
 }
