@@ -1,0 +1,9 @@
+tr:first-child {
+    background-color: brown;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    color: white;
+}
