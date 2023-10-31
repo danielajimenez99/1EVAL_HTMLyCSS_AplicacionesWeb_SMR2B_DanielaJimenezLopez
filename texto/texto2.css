@@ -25,7 +25,7 @@ input:focus {
     padding: 2px;
 }
 
-p::first-letter {
+pre::first-letter {
     color: blue;
     float: left;
     font-size: 300%;
