@@ -1,10 +1,35 @@
 @import 
 url("https://fonts.googleapis.com/css?family=Mystery+Quest");
 
+a:link {
+    background-color: greenyellow;
+}
+a:visited {
+    background-color: green;
+}
+
 h1.rojo {
     background-color:red ;
 }
 
 h1.negro {
     background-color: black;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+input:focus {
+    border: red 2px groove;
+    padding: 2px;
+}
+
+q:lang(es) {
+}
+
+q::first-letter {
+    color: blue;
+    float: left;
+    font-size: 400%;
 }
