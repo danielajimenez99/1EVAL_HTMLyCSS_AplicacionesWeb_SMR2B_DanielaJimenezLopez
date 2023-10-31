@@ -1,6 +1,3 @@
-@import 
-url("https://fonts.googleapis.com/css?family=Mystery+Quest");
-
 a:link {
     background-color: greenyellow;
 }
@@ -23,9 +20,6 @@ a:hover {
 input:focus {
     border: red 2px groove;
     padding: 2px;
-}
-
-q:lang(es) {
 }
 
 q::first-letter {
