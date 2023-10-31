@@ -6,11 +6,14 @@ a:visited {
 }
 
 h1.rojo {
+    text-align: center;
     background-color:red ;
 }
 
 h1.negro {
+    text-align: center;
     background-color: black;
+    color: white;
 }
 
 a:hover {
@@ -18,12 +21,17 @@ a:hover {
 }
 
 input:focus {
-    border: red 2px groove;
+    border: red 2px solid;
     padding: 2px;
 }
 
-q::first-letter {
+p::first-letter {
     color: blue;
     float: left;
-    font-size: 400%;
+    font-size: 300%;
+}
+
+#form {
+    border-radius: 7%;
+    background-color: blueviolet;
 }
