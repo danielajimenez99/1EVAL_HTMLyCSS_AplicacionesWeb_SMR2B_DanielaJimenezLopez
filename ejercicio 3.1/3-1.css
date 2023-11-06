@@ -1,10 +1,33 @@
-tr:first-child {
+thead {
     background-color: brown;
+    color: white;
     text-align: center;
     text-transform: uppercase;
 }
 
 table {
     color: white;
-    width: 1200px;
+    width: 925px;
+}
+
+tfoot {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: blue;
+    color: white;
+}
+
+tbody>tr:nth-child(even) {
+    background-color: white;
+    color: blue;
 }
