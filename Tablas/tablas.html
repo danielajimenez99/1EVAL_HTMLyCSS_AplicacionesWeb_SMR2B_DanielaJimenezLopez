@@ -7,10 +7,30 @@
     <style>
         caption {
             caption-side: bottom;
+            text-align: right;
+            background-color: black;
+            color: greenyellow;
+            border: white 2px solid;
         }
         table {
             margin-left: auto;
             margin-right: auto;
+            color: white;
+            background-color: rgb(90, 74, 74);
+            border: black 2px solid;
+            border-spacing: 15px;
+            empty-cells: show;
+        }
+        td {
+            border: black 2px solid;
+        }
+        #white {
+            background-color: white;
+            color: black;
+        }
+        #black {
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
@@ -18,39 +38,39 @@
     <table>
         <caption>Tabla de estilos</caption>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
+                <td id="white">1</td>
+                <td id="black"></td>
+                <td id="white">3</td>
+                <td id="black"></td>
+                <td id="white">5</td>
             </tr>
             <tr>
-                <td>11</td>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
+                <td id="black"></td>
+                <td id="white">12</td>
+                <td id="black"></td>
+                <td id="white">14</td>
+                <td id="black"></td>
             </tr>
             <tr>
-                <td>21</td>
-                <td>22</td>
-                <td>23</td>
-                <td>24</td>
-                <td>25</td>
+                <td id="white">21</td>
+                <td id="black"></td>
+                <td id="white">23</td>
+                <td id="black"></td>
+                <td id="white">25</td>
             </tr>
             <tr>
-                <td>31</td>
-                <td>32</td>
-                <td>33</td>
-                <td>34</td>
-                <td>35</td>
+                <td id="black"></td>
+                <td id="white">32</td>
+                <td id="black"></td>
+                <td id="white">34</td>
+                <td id="black"></td>
             </tr>
             <tr>
-                <td>41</td>
-                <td>42</td>
-                <td>43</td>
-                <td>44</td>
-                <td>45</td>
+                <td id="white">41</td>
+                <td id="black"></td>
+                <td id="white">43</td>
+                <td id="black"></td>
+                <td id="white">45</td>
             </tr>
     </table>
 </body>
