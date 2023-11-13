@@ -1,0 +1,13 @@
+img.tux {
+    float: right;
+    height: 45%;
+}
+
+img.gnu {
+    float: left;
+    height: 45%;
+}
+
+hr {
+    clear: both;
+}
