@@ -15,8 +15,10 @@
   -webkit-column-gap: 40px;
   column-gap: 40px;
   -webkit-column-rule: 5px solid red;
-  column-rule: 5px solid red;
-  height: 400px; /* Si la quito no funciona el break inside +/
+  column-rule: 3px dashed blue;
+  height: 300px;
+  break-inside: avoid-page;
+  /* Si la quito no funciona el break inside +/
 }
 
 .border p {

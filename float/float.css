@@ -1,0 +1,7 @@
+p.capital::first-letter {
+    float: left;
+    background-color: pink;
+    color: red;
+    font-family: monospace;
+    font-size: 400%;
+  }
