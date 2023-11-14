@@ -1,3 +1,53 @@
+body {
+    background-color: rgb(173, 173, 173);
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 15%;
+    padding-top: 2%;
+}
+
 div.container {
-    
+    background-color: rgb(129, 255, 157);
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    position: relative;
+}
+
+div.nav-item {
+    padding: 25px;
+}
+
+figure.li1 {
+
+}
+
+figure.li2 {
+
+}
+
+figure.li3 {
+
+}
+
+figure.li4 {
+
+}
+
+div.fixed-sidebar {
+    float: left;
+    border: 2px;
+    color: black;
+}
+
+div.fixed-sidebar img {
+    height: 70px;
+}
+
+div.fixed-sidebar ul {
+    list-style-type: none;
 }
