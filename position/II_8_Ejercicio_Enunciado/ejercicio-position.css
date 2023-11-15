@@ -18,10 +18,11 @@ nav {
     background-color: rgb(94, 94, 94);
     color: white;
     position: sticky;
+    padding: 20px;
 }
 
 div.nav-item {
-    padding: 25px;
+    padding-right: 355px;
     display: inline-block;
 }
 
@@ -45,4 +46,15 @@ div.fixed-sidebar img {
 div.fixed-sidebar ul {
     list-style-type: none;
     padding-left: 1%;
+}
+
+figure {
+    align-items: center;
+    border: 6px white solid;
+    background-color: white;
+    padding: 10px 10px;
+    padding-bottom: 60px;
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
 }
