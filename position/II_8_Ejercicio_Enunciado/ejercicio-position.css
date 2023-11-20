@@ -7,9 +7,12 @@ body {
     padding-top: 25px;
 }
 
-div.container {
+.container {
     background-color: rgb(129, 255, 157);
-    margin: 20px auto;
+    height: 600px;
+    width: 85%;
+    margin: 100px auto;
+    position: relative;
 }
 
 nav {
@@ -22,7 +25,7 @@ nav {
 }
 
 div.nav-item {
-    padding-right: 355px;
+    padding-right: 250px;
     display: inline-block;
 }
 
@@ -45,7 +48,7 @@ div.fixed-sidebar img {
 
 div.fixed-sidebar ul {
     list-style-type: none;
-    padding-left: 1%;
+    padding-left: 3px;
 }
 
 figure {
@@ -54,7 +57,43 @@ figure {
     background-color: white;
     padding: 10px 10px;
     padding-bottom: 60px;
-    height: 250px;
-    width: 450px;
+    width: 30%;
     border-radius: 20px;
+}
+
+figure img {
+    width: 95%;
+    align-content: center;
+}
+
+#li1 {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: rotate(-45deg);
+    z-index: 10;
+}
+
+#li2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: rotate(45deg);
+    z-index: 6;
+}
+
+#li3 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: rotate(-15deg);
+    z-index: 4;
+}
+
+#li4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: 15deg;
+    z-index: 2;
 }
