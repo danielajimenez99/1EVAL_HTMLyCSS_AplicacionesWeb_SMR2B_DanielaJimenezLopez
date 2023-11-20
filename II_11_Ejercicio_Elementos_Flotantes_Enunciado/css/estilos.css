@@ -52,7 +52,7 @@ footer {
 
 section.courses {
     columns: 3;
-    padding-left: 30px;
+    padding-left: 90px;
     padding-top: 20px;
 }
 
@@ -74,5 +74,5 @@ article {
     text-align: left;
     padding-top: 20px;
     padding-bottom: 80px;
-    padding-left: 40px;
+    padding-left: 95px;
 }
