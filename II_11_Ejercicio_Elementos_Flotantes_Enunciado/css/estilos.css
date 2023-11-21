@@ -15,6 +15,9 @@ nav {
     color: white;
     padding: 10px;
     margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
 }
 
 .sidebar .menu-item {
