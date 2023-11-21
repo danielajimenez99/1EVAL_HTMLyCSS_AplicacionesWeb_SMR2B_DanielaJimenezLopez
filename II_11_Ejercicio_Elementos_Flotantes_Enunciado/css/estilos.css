@@ -14,16 +14,17 @@ nav {
     background-color: black;
     color: white;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
-div.sidebar div.menu-item {
+.sidebar .menu-item {
     
     padding-right: 200px;
     color: white;
     background-color: black;
 }
 
-nav div.menu-item {
+nav .menu-item {
     padding-right: 180px;
     display: inline-block;
     color: white;
@@ -48,12 +49,14 @@ footer {
     text-align: center;
     padding-bottom: 20px;
     padding: 20px;
+    clear: left;
 }
 
 section.courses {
     columns: 3;
     padding-left: 90px;
     padding-top: 20px;
+    column-gap: 0;
 }
 
 div.course {
